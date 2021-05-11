@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: #000;
+}
+
+body .content {
+  width: 100%;
+  background: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #424242;
+}
+
+body .content h1 {
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+  color: white;
+}
+
+body .content h4 {
+  width: 80%;
+  text-align: left;
+  margin: 2rem 0;
+  color: white;
+}
+
+body .content form {
+  margin-top: 2rem;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .content form .content-input {
+  -ms-flex-preferred-size: 90%;
+      flex-basis: 90%;
+  padding: 0.3rem;
+  margin-right: 0.5rem;
+  outline: none;
+}
+
+body .content form .submit-input {
+  -ms-flex-preferred-size: 10%;
+      flex-basis: 10%;
+  padding: 10px;
+}
+
+body .content table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin-top: 1.5rem;
+}
+
+body .content table td,
+body .content table th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+body .content table th {
+  background: white;
+}
+
+body .content table td {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+body .content table td a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+body .content table tr {
+  background-color: #8f8f8f;
+}
+
+body .content table tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+/*# sourceMappingURL=main.css.map */

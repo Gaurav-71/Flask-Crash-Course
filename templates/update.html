@@ -1,0 +1,18 @@
+{% extends "base.html" %} {% block head %}
+<title>Flask Tutorial Update</title>
+{% endblock %} {% block body %}
+<div class="content">
+  <h1>Update Task</h1>
+  <form style="margin-bottom: 2rem" action="/update/{{task.id}} " method="POST">
+    <input
+      class="content-input"
+      placeholder="Enter Updated Task"
+      type="text"
+      value="{{task.content}}"
+      name="content"
+      id="content"
+    />
+    <input class="submit-input" type="submit" value="Update Task" />
+  </form>
+</div>
+{% endblock %}
